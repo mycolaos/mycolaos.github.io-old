@@ -1,1 +1,1 @@
-# mycolaos.github.io
+# [Mycolaos](https://mycolaos.info) website
