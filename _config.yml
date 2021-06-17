@@ -6,3 +6,5 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+google_analytics: UA-56104168-1
