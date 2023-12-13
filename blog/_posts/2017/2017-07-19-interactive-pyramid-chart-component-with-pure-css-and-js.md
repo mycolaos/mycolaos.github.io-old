@@ -2,7 +2,7 @@
 tags: [Software Engineering, Code fun]
 redditUrl: https://www.reddit.com/user/mycolaos/comments/nzndny/interactive_pyramid_chart_component_with_pure_css
 redirect_from: 
-  - /engineering/blog/interactive-pyramid-chart-component-with-pure-css-and-js
+  - /engineering/blog/interactive-pyramid-chart-component-with-pure-css-and-js/
 ---
 
 Let's say you want to create the food pyramid. You know, — eat 11 servings of whole grains, 9 servings of fruits and vegetable, 6 servings of diary and something like 2 servings of grass, oil and sweets. 
