@@ -1,1 +1,1 @@
-# [Mycolaos](https://mycolaos.info) website
+# [Mycolaos](https://mycolaos.com) website
