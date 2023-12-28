@@ -3,7 +3,14 @@ title: Insights on “A Philosophy of Software Design” by John Ousterhout
 tags: [Software Engineering, Software Design] 
 ---
 
-# Insights on “A Philosophy of Software Design” by John Ousterhout
+[What are the Secrets of Software Design?](#what-are-the-secrets-of-software-design)
+[Magic Trick: Red Flags](#magic-trick-red-flags)
+[Minimize Complexity: Deep Classes and Information Hiding](#minimize-complexity-deep-classes-and-information-hiding)
+[Define errors out of existence](#define-errors-out-of-existence)
+[Mindset: Tactical vs. Strategic programming](#mindset-tactical-vs-strategic-programming)
+[How much to invest?](#how-much-to-invest)
+[New ideas discovered](#new-ideas-discovered)
+[Key Lessons and Conclusion](#key-lessons-and-conclusion)
 
 Have you ever wondered what constitutes good software design? John Ousterhout
 points out that there's no universal agreement on this.
@@ -42,12 +49,10 @@ software design ideas.
 
 - Magic Trick: Red Flags
 - Minimize Complexity: Deep Classes and Information Hiding
-- Define errors out of existence
-- Mindset: Tactical vs. Strategic programming
-- Comments should describe things not obvious from the code
-- Pull complexity downwards
+- Define Errors Out of Existence
+- Mindset: Tactical vs. Strategic Programming
 
-Magic Trick: Red Flags
+### Magic Trick: Red Flags
 
 The principles above are abstract, especially for beginners. If unsure about
 good design, use red flags as a guide. When you spot bad code and manage to move
