@@ -99,8 +99,9 @@ classes.'
 
 Imagine a class as a rectangle, divided into two sections. The upper section
 symbolizes the interface, encompassing all the knowledge necessary to use the
-class, including public methods, side effects, and dependencies. This segment
-represents the 'complexity cost.'
+class, including public methods, side effects, performance implications,
+dependencies, and other behaviors that might affect how the class is used.  This
+segment represents the 'complexity cost.'
 
 The lower section of the rectangle embodies the class implementation.
 
