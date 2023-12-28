@@ -58,6 +58,36 @@ The principles above are abstract, especially for beginners. If unsure about
 good design, use red flags as a guide. When you spot bad code and manage to move
 away from it, you likely end up in a better position than before. 
 
+Even if Professor Ousterhout doesn't talk about specific red flags in his video,
+I'll share some of them from his book:
+
+- **Shallow Module** (class, function, etc.) when the is interface is more
+  complex than the implementation.
+- **Information Leakage** when the same knowledge is repeated in multiple
+  places.
+- **Temporal Decomposition** when the structure of the code reflects the
+  execution order.
+- **Overexposure** when the API forces the user to learn about other rarely used
+  features.
+- **Pass-through Methods** when a method just calls another method without
+  adding any value.
+- **Repetition** when the same code is repeated in multiple places.
+- **Special-General Mixture** when a general-purpose module contains
+  special-purpose code.
+- **Conjoined Methods** when to understand a method you need to understand
+  another method.
+- **Comment Repeats Code** when the comment repeats the code.
+- **Implementation Documentation Contaminates Interface** when the
+  implementation details are exposed in the interface documentation.
+- **Vague Name** when a variable, function, or class name is broad enough to
+  refer to multiple things.
+- **Hard to Pick Name** when it's hard to pick a name for a variable, function,
+  or class, it's a hint that the design is not good.
+- **Hard to Describe** when it's hard to describe what a variable, function, or
+  class does, that an indicator that there might be a problem with the design.
+- **Nonobvious Code** if the meaning and behavior of code cannot be understood
+  with a quick reading.
+
 ![Deep class](/assets/images/2023-12-27/deep-class.png.webp)
 ### Minimize Complexity: Deep Classes and Information Hiding
 
@@ -293,3 +323,4 @@ thoughtful, strategic software developers.
 - A Philosophy of Software Design - [https://www.youtube.com/watch?v=bmSAYlu0NcY](https://www.youtube.com/watch?v=bmSAYlu0NcY)
 - On the criteria to be used in decomposing systems into modules -
   [https://dl.acm.org/doi/pdf/10.1145/361598.361623](https://dl.acm.org/doi/pdf/10.1145/361598.361623)
+- Red flags from the book [https://notes.portebois.net/2021/03/04/13.html](https://notes.portebois.net/2021/03/04/13.html)
