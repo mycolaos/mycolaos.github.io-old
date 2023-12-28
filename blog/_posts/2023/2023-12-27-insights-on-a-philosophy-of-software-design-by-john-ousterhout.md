@@ -140,13 +140,13 @@ public void logInfo(String message) {
 }
 ```
 
-The complexity lies not in the number of lines but in the depth of
-understanding required to interact with the interface.
-
 Another aspect to consider is the evolution of a class. If you have a
 good reason to believe that internal implementation will become more complicated
 in the near future, you could start with a shallow implementation. Just consider
 that the interface may also change as the implementation grows.
+
+The complexity lies not in the number of lines but in the depth of
+understanding required to interact with the interface.
 
 Have you encountered the issue of having too many, too small, too shallow
 classes in your own coding experience? The reason people do this is that they
