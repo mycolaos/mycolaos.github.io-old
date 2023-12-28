@@ -88,7 +88,8 @@ I'll share some of them from his book:
 - **Nonobvious Code** if the meaning and behavior of code cannot be understood
   with a quick reading.
 
-![Deep class](/assets/images/2023-12-27/deep-class.png.webp)
+
+![Deep class](/assets/images/2023-12-27/deep-class.png)
 ### Minimize Complexity: Deep Classes and Information Hiding
 
 The principle of information hiding, first introduced by David Parnas in his
