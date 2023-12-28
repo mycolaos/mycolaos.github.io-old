@@ -231,7 +231,7 @@ Of course, this doesn't mean we should never throw errors. Sometimes
 they're necessary, like when you try to read a file that doesn't exist. But we
 should use error messages only when they're really important.
 
-In general, it's better not to check for errors in every single operation. I
+In general, it's better not to check for errors in every single operation.
 Catching syntax is clumsy while checking the return value is much simpler. But
 sometimes, you do need to throw an error. So, it's important to think carefully
 about when it's truly needed.
