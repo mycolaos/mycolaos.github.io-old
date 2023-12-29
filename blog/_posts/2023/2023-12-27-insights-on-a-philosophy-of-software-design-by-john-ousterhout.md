@@ -322,7 +322,9 @@ thoughtful, strategic software developers.
 
 ### Sources and Further Learning:
 
-- A Philosophy of Software Design - [https://www.youtube.com/watch?v=bmSAYlu0NcY](https://www.youtube.com/watch?v=bmSAYlu0NcY)
-- On the criteria to be used in decomposing systems into modules -
+- A Philosophy of Software Design:
+  [https://www.youtube.com/watch?v=bmSAYlu0NcY](https://www.youtube.com/watch?v=bmSAYlu0NcY)
+- On the criteria to be used in decomposing systems into modules:
   [https://dl.acm.org/doi/pdf/10.1145/361598.361623](https://dl.acm.org/doi/pdf/10.1145/361598.361623)
-- Red flags from the book [https://notes.portebois.net/2021/03/04/13.html](https://notes.portebois.net/2021/03/04/13.html)
+- Red flags from the book
+  [https://notes.portebois.net/2021/03/04/13.html](https://notes.portebois.net/2021/03/04/13.html)
