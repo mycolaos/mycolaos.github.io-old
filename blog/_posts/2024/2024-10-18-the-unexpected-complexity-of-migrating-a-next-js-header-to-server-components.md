@@ -16,8 +16,9 @@ The Header component serves a small but important role in the app:
 
 Currently, the `Header` is a client component, and all the URL reading and data fetching happen on the client. My goal is to refactor this to a server component, but that's easier said than done.
 
-![BGRH Home page with default logo header](/assets/images/2024-10-18/bgrh-home-header.png)
-![BGRH Game page with game titile header](/assets/images/2024-10-18/bgrh-game-header.png)
+Default header with logo |  Header with game title
+:-------------------------:|:-------------------------:
+![BGRH Home page with default logo header](/assets/images/2024-10-18/bgrh-home-header.png) | ![BGRH Game page with game titile header](/assets/images/2024-10-18/bgrh-game-header.png)
 
 ## The Challenges I Faced:
 
