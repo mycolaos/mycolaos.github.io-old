@@ -31,7 +31,9 @@ I can't access the request URL directly from a server component, which complicat
 
 ### 2. Page Params Don't Work for Layouts.
 
-The header is part of the root layout, which spans the whole site. Using page parameters only works for specific segments like `/[game]`, but it doesn't apply to more deeply nested paths such as `/[game]/[variant]/[step]`.
+The `Header` component needs to be present across all pages, so its natural place is in the root layout. However, the root layout only has access to the dynamic parameters of its specific segment. For example, even if the request is for `/[game]`, the root layout doesn’t receive information about deeper segments like `/[game]/[variant]`. 
+
+This means that since `page.tsx` is only rendered for its own segment, placing the `Header` in `/[game]/page.tsx` wouldn’t render the header for any of its child routes. As a result, each `page.tsx` would have to include its own `Header`, which defeats the purpose of layouts and makes managing components much more difficult.
 
 ### 3. Route Groups Seemed Promising, But...
 
