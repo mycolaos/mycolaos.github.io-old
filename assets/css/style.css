@@ -1,0 +1,16 @@
+body {
+  text-shadow: none !important;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+ul {
+  margin-left: 1rem;
+}
+
+li {
+  padding-left: 0;
+  margin-bottom: 0.5rem;
+}
