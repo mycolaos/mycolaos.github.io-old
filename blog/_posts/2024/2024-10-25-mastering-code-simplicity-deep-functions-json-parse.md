@@ -76,4 +76,4 @@ This structure keeps `parseUserData` as a simple, clean interface while managing
 
 Deep functions are a reminder that simplicity on the outside often means complexity is well-managed on the inside. By following this approach, you’ll make your code easier to work with and maintain over time.
 
-*P.S.: You can also have read of my [Insights on “A Philosophy of Software Design” by John Ousterhout](../2023/2023-12-27-insights-on-a-philosophy-of-software-design-by-john-ousterhout.md)*
+*P.S.: You can also have read of my [Insights on “A Philosophy of Software Design” by John Ousterhout](./insights-on-a-philosophy-of-software-design-by-john-ousterhout)*
