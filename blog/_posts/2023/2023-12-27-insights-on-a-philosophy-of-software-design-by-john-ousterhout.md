@@ -1,5 +1,5 @@
 ---
-title: Insights on “A Philosophy of Software Design” by John Ousterhout
+title: Insights on "A Philosophy of Software Design" by John Ousterhout
 tags: [Software Engineering, Software Design] 
 ---
 
